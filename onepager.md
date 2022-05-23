@@ -1,0 +1,44 @@
+# Swift + SwiftUI
+
+## Swift
+- Introduced by apple in 2014 for all their platforms (think iPhones, Apple Watch, Macs), aimed at cleaner code, less futzing with malloc and all that memory allocation shiz
+- Syntax is kinda like Java, with the usage of curly brackets and the capabilities to use OOP
+- There are some changes, though:
+    - Instead of using a class name function as the initializer function, you use init() instead
+    - You can’t use the traditional for (int i = 0; i<69; I++) loop structure, but you can still use the while loop structure
+        - Instead, you use a for I in 0..<number structure, which might feel reminiscent of the for type I:array thing (maybe?)
+        - There are still custom stepper amounts, if you want them
+        - You also lose out on the incrementer syntax (eg ++, --)
+        - Function notation is func foo(param: type)
+            - If you want to return something, use -> type at the end
+- Instantiating variables
+    - Let variables are constants: once you set them, you can’t change the value of the variable 
+    - Var variables are mutable
+    - You don’t necessarily have to type a variable, but once a variable is initialized as a certain type, you can’t change the variable to something else
+- Structs
+    - Basically like classes, but when you create a new struct instance, you are directly connected to the data values, not the memory address to the data value
+    - So when you make another variable equal to a variable that is already a struct instance, you’re just copying the struct
+    - Since you will probably be messing around with the struct values, you’d probably want to use a var for this
+    - Comes with a default initializer that can’t really be changed
+- Classes
+    - Very similar to structs
+    - However, if you were to assign a new variable to a variable that is a class, then you will copy the memory address, so if you change the value of one of the class, then you will change the value for any other variables that map to the same memory address
+    - You have to make your own initializer, which you can get away with initializing none, some, or all of the variables
+- Similarities of classes and structs
+    - You can use object oriented techniques
+    - You can make them conform to protocols (so super protocols in java speak)
+## SwiftUI
+- Think about this as HTML + CSS + navigational stack
+- Can be used to render UI and handle navigation
+- Text renders text (passes in the string you want to render)
+- Image renders an image (passes in an image or location of image)
+- Vstack stacks a bunch of text, images, or other views vertically
+- Hstack stacks a bunch of text, images, or other views horizontally
+- There are lazy stacks, which means that things load on the fly
+- Navigationview gives you the navigation bar and the means to go back a view, and gives you the view title
+- Navigationlink will change the view to something else (so a new page, you can go back from the view)
+- Buttons will allow the app to run a piece of swift when the button is pressed (eg for showing sheets)
+- There are special variables available via swiftui:
+    - State vars control the state of attached UI elements in the view
+    - Binding vars are similar to state vars, but cannot be on its own. It must use a preexisting state var to manipulate that in a new view (eg if you have a sheet view and need to use a variable that was started in another view)
+- Sheets are popovers that cover the entire screen, and have a separate view of their own to render
