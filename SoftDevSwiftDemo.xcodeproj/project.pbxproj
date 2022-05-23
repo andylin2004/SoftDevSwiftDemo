@@ -11,6 +11,7 @@
 		4243E97C27FC75E600158C20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4243E97B27FC75E600158C20 /* ContentView.swift */; };
 		4243E97E27FC75E900158C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4243E97D27FC75E900158C20 /* Assets.xcassets */; };
 		4243E98127FC75E900158C20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4243E98027FC75E900158C20 /* Preview Assets.xcassets */; };
+		4272203D2805ADF100CF2F8E /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272203C2805ADF100CF2F8E /* PopoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4243E97B27FC75E600158C20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4243E97D27FC75E900158C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4243E98027FC75E900158C20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4272203C2805ADF100CF2F8E /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4243E97927FC75E600158C20 /* SoftDevSwiftDemoApp.swift */,
 				4243E97B27FC75E600158C20 /* ContentView.swift */,
+				4272203C2805ADF100CF2F8E /* PopoverView.swift */,
 				4243E97D27FC75E900158C20 /* Assets.xcassets */,
 				4243E97F27FC75E900158C20 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4272203D2805ADF100CF2F8E /* PopoverView.swift in Sources */,
 				4243E97C27FC75E600158C20 /* ContentView.swift in Sources */,
 				4243E97A27FC75E600158C20 /* SoftDevSwiftDemoApp.swift in Sources */,
 			);
