@@ -1,7 +1,7 @@
 # Swift + SwiftUI
 
 ## Swift
-- Introduced by apple in 2014 for all their platforms (think iPhones, Apple Watch, Macs), aimed at cleaner code, less futzing with malloc and all that memory allocation shiz
+- Introduced by Apple in 2014 for all their platforms (think iPhones, Apple Watch, Macs), aimed at cleaner code, less futzing with malloc and all that memory allocation shiz
 - Syntax is kinda like Java, with the usage of curly brackets and the capabilities to use OOP
 - There are some changes, though:
     - Instead of using a class name function as the initializer function, you use init() instead
@@ -28,6 +28,7 @@
     - You can use object oriented techniques
     - You can make them conform to protocols (so super protocols in java speak)
 ## SwiftUI
+- Introduced by Apple in 2019 in response to declarative UI toolkits like React Native and serves as a more modern and universal UI building tool.
 - Think about this as HTML + CSS + navigational stack
 - Can be used to render UI and handle navigation
 - Text renders text (passes in the string you want to render)
